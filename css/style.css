@@ -3,13 +3,14 @@
 body {
 font-family: 'Montserrat', sans-serif;
   text-align: center;
-  position: relative;
+
 
 }
 
 h4,h1{
       font-weight: normal;
       text-align: left;
+      font-size: 0.4rem 0;
 }
 h2, h3, h5, h6 {
   font-family: "Montserrat-Bold",sans-serif;
@@ -27,6 +28,7 @@ p {
 
 .container-fluid{
   padding: 4% 15%;
+    position: relative;
 }
 
 /* Sections */
@@ -34,14 +36,18 @@ p {
 .colored-section {
   background-color: #12B0E8;
 
+
 }
 
 .white-section {
   background-color: #CAD5E2;
+
 }
 
 .reachme-section{
     background-color: #ff4c68;
+
+
   }
 
 
@@ -102,14 +108,14 @@ p {
 img{
   height: 500px;
   width: 500px;
+
 }
 .btn {
   margin: 1rem 0;
   font-size: 1.2rem;
   background-color: #892cdc;
   z-index: 1;
-  position: relative;
-float: left;
+  float:none;
 }
 
 p {
@@ -162,7 +168,73 @@ footer {
   background-color: black;
   color: #ffff
 }
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
 
+.title-image {
+
+  position: relative;
+}
 #reachme .p{
   float: left;
+}
+
+
+
+
+@media (max-width: 1028px) {
+  #title{
+    position: sticky;
+    text-align: center;
+
+  }
+  h4 {
+   font-size: 1.5rem;
+   text-align: center;
+ }
+ h2,h1{
+   font-size: 1.8rem;
+    text-align: center;
+ }
+ img{
+    width: 250px;
+    height: 250px;
+ }
+ button{
+   text-align: center;
+ }
+ .navbar-brand{
+   font-family: "Ubuntu";
+   font-size: 1.6rem;
+   font-weight: bold;
+   margin-left: -2rem;
+ }
+ .nyb{
+   text-align: center;
+   font-size: 1.2rem;
+ }
+ h2, h3, h5, h6 {
+   font-family: "Montserrat-Bold",sans-serif;
+   text-align: center;
+ }
+ .display-4{
+    text-align: center;
+   font-size: 2rem;
+   text-align: center;
+ }
+ .blac{
+   font-size: 0.5rem;
+ }
+ .navbar-toggler{
+   margin-left: 2.5rem;
+ }
+ form{
+   float: left;
+ }
+#reachme{
+  text-align: left;
+}
 }
