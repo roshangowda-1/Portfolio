@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Roshan Gowda</title>
 
   <!-- Google Fonts -->
@@ -12,15 +13,16 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css" />
 
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="dist/aos.js"></script>
-  <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
   <!-- Bootstrap Scripts -->
+  <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -28,8 +30,7 @@
 </head>
 
 <body class="">
-
-  <section class="colored-section" id="">
+  <section class="colored-section" id="title">
 
     <div class="container-fluid">
 
@@ -37,11 +38,12 @@
 
       <nav class="navbar navbar-expand-lg navbar-dark">
 
-        <a class="navbar-brand" href="text.html">Roshan Gowda</a>
-
+        <a class="navbar-brand" href="index.html">Roshan Gowda</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
           <span class="navbar-toggler-icon"></span>
         </button>
+
+
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
@@ -58,27 +60,28 @@
           </ul>
 
         </div>
-      </nav></div>
-      <div class="container" style="color:white;">
-        <div class="row">
+      </nav>
 
-          <div class="col-6" data-aos="fade-right"><br /><br><br>
-            <h4 class="display-5 color-white">Hey, I Am Roshan</h4>
-            <h2 class="display-6">A WEB DEVELOPER</h1>
-              <a href="#myprojects" class="btn btn-sm btn-primary">My Projects</a>
-          </div>
-          <div class="col-6" data-aos="zoom-in" data-aos-offset="400">
-            <img src="images/undraw_Freelancer_re_irh4.svg" />
-          </div>
+      <div class="row" style="color:white;">
+
+        <div class="col-lg-6" data-aos="fade-right"><br /><br><br>
+          <h4 class="display-5 color-white">Hey, I Am Roshan</h4>
+          <h2 class="display-6">A WEB DEVELOPER</h1>
+            <button onclick="parent.location='#myprojects'" class="btn btn-lg btn-primary">My Projects</button>
+        </div>
+
+        <div class="col-lg-6" data-aos="zoom-in" data-aos-offset="450">
+          <img src="images/undraw_Freelancer_re_irh4.svg" />
         </div>
       </div>
+
   </section>
-                                                           
+
   <section class="white-section" id="aboutme">
     <div data-aos="fade-right" data-aos-offset="300">
       <div class="container-fluid">
         <div class="row">
-          <div class="col">
+          <div class="col-lg">
             <h1>About Me</h1>
           </div>
           <div class="col">
@@ -95,8 +98,8 @@
   <section class="white-section" id="myprojects">
     <div class="container babe" data-aos="fade-left">
       <p class="display-4"> My Projects</p><br>
-      <i  class="icon fas fa-spinner fa-10x" "></i>
-      <h1 class="prj" data-aos="fade-right" data-aos-offset="200">Loading...</h1>
+      <i class="icon fas fa-spinner fa-10x" "></i>
+      <h1 class=" prj" data-aos="fade-right" data-aos-offset="200">Loading...</h1>
     </div>
   </section>
 
@@ -105,33 +108,33 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-6" data-aos="fade-up" data-aos-offset="400">
-          <h1 class="nyb display-4" >Contact Me</h1>
-            <h4 class="nyb display-6">Don't Hesitate to Reach me !</h4>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-offset="400">
+          <h1 class="nyb display-4">Contact Me</h1>
+          <h4 class="nyb display-6">Don't Hesitate to Reach me !</h4>
 
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <form data-aos="fade-left" data-aos-offset="400">
             <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
-              <div class="col-sm-10">
+              <label for="Name" class="col-lg-2 col-form-label">Name</label>
+              <div class="col-lg-10">
                 <input type="text" class="form-control" id="inputEmail3" placeholder="Name" required>
               </div>
             </div>
-            <div class="form-group row" >
-              <label for="inputPassword3" class="col-sm-2 col-form-label">Mail-id</label>
-              <div class="col-sm-10">
+            <div class="form-group row">
+              <label for="mail" class="col-lg-2 col-form-label float-left">Mail-id</label>
+              <div class="col-lg-10">
                 <input type="email" class="form-control" id="inputPassword3" placeholder="yourmailid@domain.com" required>
               </div>
             </div>
             <div class="form-group row">
-              <label for="message" class="col-sm-2 col-form-label">Message</label>
-              <div class="col-sm-10">
+              <label for="message" class="col-lg-2 col-form-label">Message</label>
+              <div class="col-lg-10">
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" required></textarea>
               </div>
             </div>
             <div class="form-group row">
-              <div class="col-sm-12">
+              <div class="col-lg-12">
                 <button type="submit" class="btn btn-primary btn-sm btn-block">Submit</button>
               </div>
             </div>
@@ -149,31 +152,31 @@
 
 
 
-        <a href="https://github.com/roshangowda-1" target="_blank">
-          <i class=" abc fab fa-github fa-2x"></i>
-        </a>
-        <a href="https://linkedin.com/in/roshan-gowda-585a991ba" target="_blank">
-          <i class="abc fab fa-linkedin-in fa-2x"></i>
-        </a>
-        <a href="https://twitter.com/RoshanG87158096" target="_blank">
-          <i class="abc fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="https://www.instagram.com/roshan__gowda/" target="_blank">
-          <i class="abc fab fa-instagram fa-2x"></i>
-        </a>
+    <a href="https://github.com/roshangowda-1" target="_blank">
+      <i class=" abc fab fa-github fa-2x"></i>
+    </a>
+    <a href="https://linkedin.com/in/roshan-gowda-585a991ba" target="_blank">
+      <i class="abc fab fa-linkedin-in fa-2x"></i>
+    </a>
+    <a href="https://twitter.com/RoshanG87158096" target="_blank">
+      <i class="abc fab fa-twitter fa-2x"></i>
+    </a>
+    <a href="https://www.instagram.com/roshan__gowda/" target="_blank">
+      <i class="abc fab fa-instagram fa-2x"></i>
+    </a>
 
-      <div class="mail blac">
-        <a href="mailto:mohanroshan376@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
-        <p class="blac">mohanroshan376@gmail.com</p>
-         <p class="blac float-left">© Copyright 2021 Roshan Gowda</p>
+    <div class="mail blac">
+      <a href="mailto:mohanroshan376@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
+      <p class="blac">mohanroshan376@gmail.com</p>
+      <p class="blac float-left">© Copyright 2021 Roshan Gowda</p>
 
 
-      </div>
+    </div>
 
   </footer>
 
+  </nav>
 
-</nav>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init()
