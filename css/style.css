@@ -57,7 +57,7 @@ p {
 
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -232,7 +232,7 @@ footer {
    font-size: 0.5rem;
  }
  .navbar-toggler{
-   margin-left: 1.5rem;
+   margin-left: 1rem;
  }
  form{
    float: left;
