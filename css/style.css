@@ -44,12 +44,6 @@ p {
 
 }
 
-.reachme-section{
-    background-color: #ff4c68;
-
-
-  }
-
 
 .ttpp{
   padding: 5%;
@@ -91,7 +85,10 @@ p {
 
 
 .social-icon {
-  margin: 20px 10px;
+  margin: 0px 0px;
+}
+footer{
+  margin-top: 0px;
 }
 
 @media (max-width: 1028px) {
@@ -165,11 +162,12 @@ footer {
   margin: 0.5rem;
 }
 .blac{
-  background-color: black;
-  color: #ffff
+  background-color: #23C4ED;
+  color: #ffff;
+  margin-top: 0px;
 }
 #title {
-  background-color: #12B0E8;
+  background-color: #23C4ED;
   color: #fff;
   text-align: left;
 }
@@ -229,7 +227,7 @@ footer {
    font-size: 0.5rem;
  }
  .navbar-toggler{
-   margin-left: 0.5rem;
+   margin-left: 2.5rem;
  }
  form{
    float: left;
