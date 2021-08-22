@@ -232,7 +232,7 @@ footer {
    font-size: 0.5rem;
  }
  .navbar-toggler{
-   margin-left: 5rem;
+   margin-left: -5rem;
  }
  form{
    float: left;
