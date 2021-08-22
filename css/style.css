@@ -90,6 +90,11 @@ p {
 footer{
   margin-top: 0px;
 }
+.blac{
+  background-color: #23C4ED;
+  color: #ffff;
+  margin-top: 0px;
+}
 
 @media (max-width: 1028px) {
 
