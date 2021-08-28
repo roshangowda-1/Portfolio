@@ -42,6 +42,13 @@ p {
 
 }
 
+
+.colored1-section {
+  background-color: #12B0E8;
+  display: flex;
+
+
+}
 .white-section {
   background-color: #CAD5E2;
 
@@ -235,7 +242,7 @@ footer {
    font-size: 0.5rem;
  }
  .navbar-toggler{
-   margin-left: 2rem;
+   margin-left: 1rem;
  }
  form{
    float: left;
